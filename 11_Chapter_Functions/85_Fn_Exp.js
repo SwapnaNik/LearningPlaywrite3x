@@ -10,3 +10,7 @@ const greet1 = function (name1){
 
 console.log(greet("Bob"));
 console.log(greet1("Bob"));
+
+//OP-
+// Hello, Bob
+// Hello, Bob

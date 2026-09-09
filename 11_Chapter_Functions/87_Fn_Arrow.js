@@ -16,3 +16,7 @@ const getResult = (score) => {
 
 console.log(getResult(78));
 console.log(getResult(43));
+
+//staging
+// Pass
+// fail

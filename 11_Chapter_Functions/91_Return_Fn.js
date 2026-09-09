@@ -10,21 +10,21 @@ function getStatus(code) {
     }
 }
 
-getStatus(200); 
-getStatus(404);
-getStatus(500); 
+console.log(getStatus(200)); // Success
+console.log(getStatus(404));// client error
+console.log(getStatus(500)); // server error
 
 
 // Returns nothing → undefined
 function logTest(name) {
-    console.log(`Running: ${name}`);
+    console.log(`Running: ${name}`);//template literal 
     // no return statement
 }
 
-logTest("Hi this is a a log");
+logTest("Hi this is a a log");// Running: Hi this is a a log
 
 
 function aaa() {
     return [2, 2, 3, 5, 4];
-    /// return {"name : pramod"}; - object
+    /// return {"name : pramod"}; - object - key value pair 
 }

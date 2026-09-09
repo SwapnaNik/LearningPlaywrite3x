@@ -10,8 +10,8 @@ greet();
 greet();
 greet();
 
-let output = greet();
-console.log(output);
+ let output = greet();
+ console.log(output);
 
 
 function openBrowser(){
@@ -19,3 +19,9 @@ function openBrowser(){
     // open the brower
     
 }
+
+// Hi
+// Hi
+// Hi
+// Hi
+// undefined

@@ -12,3 +12,10 @@ if(true){
 // Enter Block , Block Scope
 //  a = TDZ (exist but not initialized)
 // console.log(a);
+
+let b = "Swapna";
+
+if(true){
+    console.log(b);// ReferenceError: Cannot access 'b' before initialization
+   // let b = "temp";
+}

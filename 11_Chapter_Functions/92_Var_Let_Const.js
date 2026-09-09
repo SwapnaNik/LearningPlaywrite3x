@@ -38,32 +38,33 @@ function printHello(){
 
 // Calling of the function
 printHello();
-console.log(b);
+console.log(b);// 20
+
 
 // Let does not allow you to have a re-declaration. 
 // let a = 10;
 // let a = 10;
 
 
-// var allow you to have a re-declaration 
+// var allow you to have a re-declarations 
 var a =11;
 var a = 100;
 
-// let nn = "Pramod";
-// var nn = "Pramod"; 
+// let nn = "Pramod";// let does not allow you to have a re-declaration.
+// var nn = "Pramod"; // var allow you to have a re-declarations 
 
 const pi = 3.14;
 console.log(pi);
-pi = 3.14159; // Assignment to constant variable.
+pi = 3.14159; // Assignment to constant variable are not allowed
 
 {
-
+//block scope
 }
 
 
-const a = [1,2,3];
-a.push(10);
-
+const a1 = [1,2,3];
+a1.push(10);
+console.log(a1);
 
 function adasd(){
 
